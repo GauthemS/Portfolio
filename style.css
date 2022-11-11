@@ -43,7 +43,7 @@ ABOUT
 }
 #about img {
   border-radius: 100%;
-  width: 200px;
+  width: 120px;
   margin-bottom: 10px;
   border-color: black;
   outline-color: black;
@@ -58,7 +58,13 @@ ABOUT
   text-align: center;
 }
 p {
+  font-size: 14px;
   margin-bottom: 10px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 20px;
 }
 .email {
   margin-top: 14px;
@@ -68,4 +74,27 @@ p {
   color: #000 !important;
   margin-top: 20px;
   font-size: 30px;
+}
+a.font-black {
+  color: #000 !important;
+}
+
+/*********************
+
+PROJECT
+
+
+***********************/
+#projects {
+  margin: 60px auto;
+  width: 80%;
+}
+#projects h2 {
+  text-align: center;
+}
+#projects .card img {
+  width: 100%;
+}
+.card-title {
+  font-weight: bold;
 }
